@@ -17,7 +17,7 @@ include_once("controller/conexao.php");
 </div>
 </header>
 <section id="produtos">
-    <form action=" " method="post">
+    <form action="insere-produto.php" method="post">
         Nome: <input type="text" name="nome"><br>
         Descrição: <input type="text" name="descricao"><br>
         Estoque: <input type="number" name="estoque"><br>
@@ -27,10 +27,37 @@ include_once("controller/conexao.php");
         <option value="">Selecione</option>
         <?php
         $resultado_categoria= "SELECT * FROM categoria";
+        $resultcategoria = mysqli_query($mysqli, $resultado_categoria);
+        while($row_categotias = mysqli_fetch_assoc($resultcategoria)){
+?>
+
+<option value=" <?php echo $row_categotias['IDCATEGORIA']; ?> "><?php echo $row_categotias['DESCRICAO']; ?></option>
+
+<?php
+        }
+        ?>
+</select>
+<br>
+       Marca:
+       <select name="seleciona_marca" id="">
+        <option value="">Selecione</option>
+        <?php
+        $resultado_marca= "SELECT * FROM marca";
+        $resultmarca = mysqli_query($mysqli, $resultado_marca);
+        while($row_marcas = mysqli_fetch_assoc($resultmarca)){
+?>
+
+<option value=" <?php echo $row_marcas['IDMARCA']; ?> "><?php echo $row_marcas['DESCRICAO']; ?></option>
+
+<?php
+        }
+
        
  
         ?>
 </select>
+<br>
+<input type="submit" value="Cadastrar">
 </form>
 </section>
 </body>

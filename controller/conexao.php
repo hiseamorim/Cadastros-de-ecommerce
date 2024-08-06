@@ -1,9 +1,9 @@
 <?php
   
   $user = 'root';
-  $pass = 'l&o02783';
+  $pass = '';
   $server = 'localhost';
-  $db = 'macedo';
+  $db = 'compra';
 
   $mysqli = mysqli_connect($server, $user, $pass, $db);
   $mysqli->set_charset('utf8');
