@@ -52,3 +52,19 @@ Sim, o código PHP que você forneceu utiliza vários métodos e funções PHP. 
 11. **`mysqli_close($mysqli)`**
    - **Função:** `mysqli_close()`
    - **Descrição:** Fecha a conexão com o banco de dados MySQL. Deve ser chamado quando a interação com o banco de dados estiver concluída para liberar recursos
+
+## Imagem das aplicações 📸
+
+# Tela Inicial ⬇️
+   ![imagem](img/telainicial.png)
+
+# Pedidos 🛍️
+   ![imagem](img/gifcarrinho.gif)
+
+# Cadastro de Categoria ⬇️
+   ![imagem](img/gifcategoria.gif)
+
+# Cadastro de Marcas ⬇️
+   ![imagem](img/gifmarcas.gif)
+
+
