@@ -1,4 +1,4 @@
-<h1 align="center"> Cadastros-de-ecommerce </h1>
+<h1 align="center"> Cadastros de Ecommerce </h1>
 
 ## Status do Projeto🚧
 > 👍Projeto Finalizado 👍
@@ -86,4 +86,11 @@ Saída de Dados:
 *echo* é utilizado para imprimir texto e variáveis na saída padrão, gerando HTML dinâmico e mensagens para o usuário.
 Esses métodos e funções são essenciais para criar, manipular, e interagir com dados em uma aplicação PHP que utiliza um banco de dados MySQL.
 
+### 🛠️ Tecnologia ultilizadas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width=50  />  |<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width=50 /> |  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threedsmax/threedsmax-original.svg" width=50/> |  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width=50 /> |<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width=50/> |
+| :---: | :---: | :---: | :---: | :---: |
+
+## ✒️ Autores
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/105460028?v=4" width=115><br><sub>Hanelise Naves Amorim</sub>](https://github.com/hiseamorim) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/130574133?v=4" width=115><br><sub>Quezia Kato</sub>](https://github.com/QueziaKato) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86796647?s=200&v=4" width=115><br><sub>Marista Escola Social Ir. Acácio</sub>](https://github.com/MaristaIrAcacio) | 
+| :---: | :---: | :---: | :---: |
 
